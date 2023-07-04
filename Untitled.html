@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minha Página</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    .conteudo {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo à Minha Página</h1>
+
+  <div class="conteudo">
+    <p>Esta é uma página simples criada com HTML, JavaScript e CSS.</p>
+    
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+    
+    <p id="mensagem"></p>
+  </div>
+
+  <script>
+    // JavaScript
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerHTML = "Olá! Você clicou no botão.";
+    }
+  </script>
+</body>
+</html>
